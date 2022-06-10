@@ -1,6 +1,6 @@
-import caesarCipher from '../caesarCipher';
+import caesarCipher from "../caesarCipher";
 
-test('Test caesarCipher', () => {
+test("Test caesarCipher", () => {
   const word = caesarCipher("I'm called Sani!", 6);
   expect(word).toBe("O's igrrkj Ygto!");
   const sameword = caesarCipher("Hello World!", 0);

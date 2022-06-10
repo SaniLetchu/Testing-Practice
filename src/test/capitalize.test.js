@@ -1,6 +1,6 @@
-const capitalize = require('../capitalize');
+const capitalize = require("../capitalize");
 
-test('Properly capitalizes first letter', () => {
+test("Properly capitalizes first letter", () => {
   const word = capitalize("sani");
   expect(word).toBe("Sani");
   const word1 = capitalize("burGEr");
