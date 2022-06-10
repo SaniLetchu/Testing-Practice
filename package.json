@@ -1,0 +1,28 @@
+{
+  "name": "testing-practice",
+  "version": "1.0.0",
+  "description": "Project: Testing Practice from Odin Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaniLetchu/Testing-Practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SaniLetchu/Testing-Practice/issues"
+  },
+  "homepage": "https://github.com/SaniLetchu/Testing-Practice#readme",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "2.6.2"
+  }
+}
